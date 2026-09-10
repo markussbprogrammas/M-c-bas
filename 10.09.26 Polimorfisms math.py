@@ -38,6 +38,6 @@ class Taisnsturis:
 nosaukumi = [Aplis.nosaukums(""), Kvadrats.nosaukums(""),Taisnsturis.nosaukums("")]
 formas= [Aplis(5), Kvadrats(4), Taisnsturis(5,8)]
 
-print(formas)
+
 for forma in formas:
-    print(f"Nosaukums ir : {forma.nosaukums} Laukums ir: {"{:.3f}".format (round(forma.laukums(), 3))}")
+    print(f"Nosaukums ir : {forma.nosaukums()} Laukums ir: {"{:.3f}".format (round(forma.laukums(), 3))}")
